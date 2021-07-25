@@ -1,0 +1,35 @@
+body{
+    background-color:#E1CDB5;
+    padding: 3%;
+}
+
+.nome{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+    text-align: center;    
+}
+.descricao{
+    position: absolute; 
+    top: 36%;
+    right: 25%;    
+} 
+
+.estrutura{
+    font-size: 30px;
+}
+#foto{
+    border-radius: 50%;
+    float: left;
+    height: 280px;
+    padding: 10px;
+    background-color: rgba(189, 181, 181, 0.815);
+
+}
+
+.image-container{
+    height: 300px;
+    position: relative;
+}
+
+ul li:nth-child(odd){
+    background-color: rgba(189, 181, 181, 0.815);
+}
